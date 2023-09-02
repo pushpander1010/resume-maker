@@ -1,16 +1,20 @@
-S.No	Heading	Data	Font	Font Size	Bold	Link/comment
-1	name	PUSHPANDER KUMAR				
-2	subheading1	LinkedIn				www.linkedin.com/in/pushpander-kumar
-3	subheading2	Github				https://github.com/pushpander1010
-4	subheading3	HackerRank				
-5	contact1	9728409004				
-6	contact2	pushpanderkmr@gmail.com				
-7	skills	"java,python,js,c#,django,html,css,python"				comma seperated skills
-8	experience1	"Infosys:Feb2022-present:I worked as a system Engineer, worked on many technology stacks : Java, Python, MySQL, AWS"				: sperated (company name: date : details)
-8	experience2	Infosys:Feb2022-present:I worked as a system Engineer				: sperated (company name: date : details)
-11	project1	"Resume Maker:python,reportlab library,python OOPS,Git:Developed a python based tool that can read an excel file and then make a resume."				: sperated (project: tech used : details)
-12	project2	Any:sample:sample				: sperated (project: tech used : details)
-12	project3	Any:sample:sample				: sperated (project: tech used : details)
-13	education1	Mtech( Software Engineering):Kurukshetra University:2015-2019:73%:				:sperated(degree:school:date:marks : achievements)
-14	education2	Mtech( Software Engineering):BITS - Pilani:2023-2025::				:sperated(degree:school:date:marks : achievements)
-15	hobbies	"All hobbies,comma,seperated"				comma seperated skills
+S.No,&&Heading,&&Data,&&Font,&&Font Size,&&Bold,&&Link/comment
+1,&&name,&&,&&,&&,&&,&&
+2,&&subheading1,&&,&&,&&,&&,&&linkedin profile link
+3,&&subheading2,&&,&&,&&,&&,&&profile link
+4,&&subheading3,&&,&&,&&,&&,&&profile link
+5,&&contact1,&&,&&,&&,&&,&&linkedin profile link
+6,&&contact2,&&,&&,&&,&&,&&linkedin profile link
+7,&&skills,&&,&&,&&,&&,&&| seperated skills
+8,&&experience1,&&,&&,&&,&&,&&: seperated company:date:details
+10,&&project1,&&,&&,&&,&&,&&: sperated (project: tech used : details)
+11,&&project2,&&,&&,&&,&&,&&: sperated (project: tech used : details)
+12,&&project3,&&,&&,&&,&&,&&: sperated (project: tech used : details)
+13,&&education1,&&,&&,&&,&&,&&:sperated(degree:school:date:marks : achievements/details)
+14,&&education2,&&,&&,&&,&&,&&:sperated(degree:school:date:marks : achievements/details)
+15,&&certificate1,&&,&&,&&,&&,&&certification link
+16,&&certificate2,&&,&&,&&,&&,&&certification link
+15,&&certificate3,&&,&&,&&,&&,&&certification link
+16,&&certificate4,&&,&&,&&,&&,&&certification link
+17,&&certificate5,&&,&&,&&,&&,&&certification link
+18,&&certificate6,&&,&&,&&,&&,&&certification link

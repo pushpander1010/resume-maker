@@ -16,6 +16,9 @@ class Experience:
     def getDetails(self):
         return self.details
     
+    def __str__(self):
+        return self.details
+    
 class Project:
     def __init__(self,project):
         exps=project.split(":")
@@ -25,10 +28,30 @@ class Project:
 
     def getCompany(self):
         return self.proj
-    def getDate(self):
+    def getTech(self):
         return "( Technology used : "+self.tech+")"
     def getDetails(self):
         return self.details
+    
+class Education:
+    def __init__(self,education):
+        exps=education.split(":")
+        self.qualification=exps[0]
+        self.school=exps[1]
+        self.date=exps[2]
+        self.marks=exps[3]
+        self.achievement=exps[4]
+
+    def getQualification(self):
+        return self.qualification
+    def getSchool(self):
+        return self.school
+    def getDate(self):
+        return self.date
+    def getMarks(self):
+        return self.marks
+    def getAchievements(self):
+        return self.achievement
 
 def readCsv(path):
     lines=[]
@@ -37,7 +60,7 @@ def readCsv(path):
         line=file.readline()
         while line:
             line=file.readline()
-            parts=line.split("\t")
+            parts=re.split(r"[,]{1}[\"]?[&]{2}",line)
             tmp=""
             for part in parts:
                 if part.startswith('"') or part.endswith('"'):
